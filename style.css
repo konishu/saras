@@ -1,0 +1,165 @@
+@charset "utf-8";
+/*
+theme Name: saras
+Author: keisuke ino
+Description: this is template for saras lilas products
+version： 1.0.0
+*/
+
+
+/*コンテンツのサイズ指定*/
+.header-inner, .container, .footer-inner {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-wrp {
+  padding-top: 70px;
+}
+
+/*css*/
+@media (min-width: 768px){
+  /*適応させたいcssを記述*/
+}
+
+
+
+/*ページネーション*/
+.pagination {
+  margin: 40px 0 30px;
+  text-align: center;
+}
+
+.pagination ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pagination li {
+  display: inline-block;
+  width: auto;
+}
+
+.pagination li a, .pagination li > span {
+  font-size: .9em;
+  display: block;
+  width: 30px;
+  margin: 0 1px;
+  padding: 5px 0;
+  text-decoration: none;
+  color: #000;
+  border: solid 1px #ccc;
+  border-radius: 3px;
+}
+
+.pagination li > span {
+  color: #fff;
+  background-color: #464646;
+}
+
+.pagination li a:hover {
+  color: #fff;
+  background-color: #464646;
+}
+
+.pagination li .dots {
+  width: 15px;
+  padding: 0;
+  color: #000;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+
+.resi-img-box {
+  height: 500px;
+  width: 100%;
+}
+
+.resi-top-text {
+  position: absolute;
+  bottom: 10px;
+  padding: 20px;
+}
+.resi-top-text p,.resi-top-text h4 {
+  color: white;
+}
+.btn-light a {
+  color: #009dff !important;
+}
+.resi-content-wrp div:nth-child(even) {
+  background-color: white;
+}
+.sin-content-wrp div:nth-child(odd) {
+  background-color: white;
+}
+.h-showbox span {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  margin: 10px 0;
+}
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  background-color: white;
+  padding: 10px 0 !important;
+}
+.site-title {
+  float: left;
+  margin-left: 20px;
+}
+.h-showbox {
+  width: 30px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+.h-hidenbox {
+  padding: 20px;
+  clear: both;
+}
+
+.c-logo-img {
+  height: 70px;
+  width: 70px;
+}
+.icon {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.cat-data a {
+  background-color: black;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 20px;
+}
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {display: inline-table;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+.sin-icon-box {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.sin-icon-wrp img {
+  width: 50px;
+}
