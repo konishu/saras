@@ -1,4 +1,4 @@
-<footer>
+<footer class="">
 	<div class="footer-inner text-center">
 		<div class="footer-nav-area">
 			<?php wp_nav_menu( array(
