@@ -89,10 +89,10 @@ version： 1.0.0
   color: #009dff !important;
 }
 .resi-content-wrp div:nth-child(even) {
-  background-color: white;
+  background-color: #f5f3f3;
 }
 .sin-content-wrp div:nth-child(odd) {
-  background-color: white;
+  background-color: #f5f3f3;
 }
 .h-showbox span {
   display: block;
