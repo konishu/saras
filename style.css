@@ -132,7 +132,7 @@ header {
   border: 1px solid black;
 }
 
-.cat-data a {
+.cat-data a,.cat-data span {
   background-color: black;
   padding: 5px 15px;
   color: white;
@@ -162,4 +162,21 @@ header {
 
 .sin-icon-wrp img {
   width: 50px;
+}
+
+.slide-img-box {
+  height: 300px;
+  width: 100%;
+}
+
+.carousel-item img {
+  height: 200px !important;
+  width: 400px !important;
+  object-fit: cover;
+}
+
+.single-top-img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover !important;
 }

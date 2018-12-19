@@ -1,4 +1,4 @@
-<article <?php post_class( 'kiji-list' ); ?>>
+<article class="col-md-2" <?php post_class( 'kiji-list' ); ?>>
 	<a href="<?php the_permalink(); ?>">
 		<div>
 			<?  

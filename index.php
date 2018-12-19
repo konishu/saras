@@ -1,12 +1,22 @@
 <?php get_header(); ?>
 <div class="container-wrp">
 	<div class="contents">
+
+		<div>
+			<?php include('cat-loop.php'); ?>			
+		</div>
+
+		<div>
+			<?php include('carousel-loop.php'); ?>
+		</div>
+		
+
 		<div>
 			<!-- <?php wp_list_categories('title_li='); ?> -->
 		</div>
 
 		<div>
-			<div>
+			<div class="row">
 				<?php if(have_posts()): while(have_posts()): the_post(); ?>
 					<?php include('loop.php'); ?>
 				<?php endwhile; endif; ?>

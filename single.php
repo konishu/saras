@@ -5,7 +5,7 @@
 		$img = get_field('c_home');
 		$imgurl = wp_get_attachment_image_src($img, 'full');
 		if($imgurl){ ?>
-			<img src="<? echo $imgurl[0]; ?>" alt="">
+			<img src="<? echo $imgurl[0]; ?>" class="single-top-img">
 		<? } ?>
 	</div>
 	<div class="contents">
@@ -92,29 +92,35 @@
 					<div class="mgtb30 pd20">
 						<h5 class="mgb20">連絡先</h5>
 						<div class="sin-icon-wrp row">
-							<?  
-							$txt = get_field('c_twitter');
-							if($txt){ ?>
-								<a href="https://twitter.com/<? echo $txt; ?>" class="col-xs-4" target="_blank">
-									<img src="<?php bloginfo('template_directory'); ?>/images/icon/00_twitter.png">
-								</a>
-							<? } ?>
+							<p class="col-xs-4 text-center">
+								<?  
+								$txt = get_field('c_twitter');
+								if($txt){ ?>
+									<a href="https://twitter.com/<? echo $txt; ?>" class="col-xs-4" target="_blank">
+										<img src="<?php bloginfo('template_directory'); ?>/images/icon/00_twitter.png">
+									</a>
+								<? } ?>
+							</p>
 
-							<?  
-							$txt = get_field('c_facebook');
-							if($txt){ ?>
-								<a href="https://www.facebook.com/<? echo $txt; ?>" class="col-xs-4" target="_blank">
-									<img src="<?php bloginfo('template_directory'); ?>/images/icon/00_facebook.png">
-								</a>
-							<? } ?>
+							<p class="col-xs-4 text-center">
+								<?  
+								$txt = get_field('c_facebook');
+								if($txt){ ?>
+									<a href="https://www.facebook.com/<? echo $txt; ?>" class="col-xs-4" target="_blank">
+										<img src="<?php bloginfo('template_directory'); ?>/images/icon/00_facebook.png">
+									</a>
+								<? } ?>
+							</p>
 
-							<?  
-							$txt = get_field('c_mail');
-							if($txt){ ?>
-								<a href="<? echo $txt; ?>" class="col-xs-4" target="_blank">
-									<img src="<?php bloginfo('template_directory'); ?>/images/icon/00_mail.png">
-								</a>
-							<? } ?>
+							<p class="col-xs-4 text-center">
+								<?  
+								$txt = get_field('c_mail');
+								if($txt){ ?>
+									<a href="<? echo $txt; ?>" class="col-xs-4" target="_blank">
+										<img src="<?php bloginfo('template_directory'); ?>/images/icon/00_mail.png">
+									</a>
+								<? } ?>
+							</p>
 						</div>
 					</div>
 				</div>
